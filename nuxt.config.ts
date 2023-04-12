@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     storage: {
       db: {
         driver: "cloudflare-kv-binding",
-        binding: "KV"
+        binding: "KV123"
       }
     },
     devStorage: {
